@@ -1,0 +1,38 @@
+[
+    {
+      "id": "624aa365b5391298a2375144",
+      "ratings": 51,
+      "comment": "Good Product",
+      "name": "Michelle Pennington"
+    },
+    {
+      "id": "624aa36522c36cfb5fa09d46",
+      "ratings": 297,
+      "comment": "Service are really excellent",
+      "name": "Bauer Stevens"
+    },
+    {
+      "id": "624aa365e56af57b9c1fefa8",
+      "ratings": 246,
+      "comment": "Value buy",
+      "name": "Page Fitzpatrick"
+    },
+    {
+      "id": "624aa36567a5af2dc545107d",
+      "ratings": 141,
+      "comment": "Excellent",
+      "name": "White York"
+    },
+    {
+        "id": "624aa36567a5af2dc545107e",
+        "ratings": 141,
+        "comment": "Satisfied",
+        "name": "White York"
+      },
+    {
+      "id": "624aa36586f41447724701a2",
+      "ratings": 217,
+      "comment": "Value buy!! Will purchase again",
+      "name": "Hodges Justice"
+    }
+  ]
