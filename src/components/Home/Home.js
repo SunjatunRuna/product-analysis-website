@@ -1,6 +1,8 @@
 import React from 'react';
 import Review from './Review/Review';
+import './Home.css';
 import img from './img/istockphoto-1033729610-612x612-removebg-preview.png'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     
@@ -19,6 +21,8 @@ const Home = () => {
                 </div>
             </div>
             <Review/>
+            <div className='my-5'><button className='border border-0 rounded
+            p-2 bg-info'><Link to="/reviews" className='see-more'>See more</Link></button></div>
         </div>
     );
 };
