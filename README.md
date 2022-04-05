@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://aquamarine-seahorse-d9833f.netlify.app/](http://localhost:3000) to view it in your browser.
 
 Dream Shop:
 1. Home: There are three section navigation bar, main part(About shop and side picture) and the last section customers reviews
