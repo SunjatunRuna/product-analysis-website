@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, Line, LineChart, XAxis, YAxis } from 'recharts';
 
 const Chart = () => {
     const data = [
@@ -47,17 +47,14 @@ const Chart = () => {
                 <Line dataKey={"investment"} stroke="#8884d8"></Line>
                 <XAxis dataKey={"month"}></XAxis>
                 <YAxis></YAxis>
-
             </LineChart>
             </div>
             <div className='col-lg-6'>
-            <LineChart width={500} height={500} data={data}>
-                <Line dataKey={"investment"} stroke="#8884d8"></Line>
-                <XAxis dataKey={"month"}></XAxis>
-                <XAxis dataKey={"revenue"}></XAxis>
-                <YAxis></YAxis>
-
-            </LineChart>
+                <BarChart width={500} height={500} data={data}>
+                    <Bar dataKey={"revenue"} fill="#8884d8"></Bar>
+                    <XAxis dataKey={"sell"}></XAxis>
+                    <YAxis></YAxis>
+                </BarChart>
             </div>
         </div>
     );
