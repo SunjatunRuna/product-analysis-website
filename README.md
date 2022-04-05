@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Dream Shop
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -10,6 +10,14 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Dream Shop:
+1. Home: There are three section navigation bar, main part(About shop and side picture) and the last section customers reviews
+2. Reviews: There are customers feedback about this online store
+3. Dashboard: Install there recharts and draw two chart in dashboard 
+4. Blogs: About Context API and Semantic tag definition 
+5. 404: Search invalid input then show error message
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
